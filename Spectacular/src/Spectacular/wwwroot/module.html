@@ -1,0 +1,7 @@
+﻿<h2>{{$ctrl.module.name}}</h2>
+<p>{{$ctrl.module.description}}</p>
+<section>
+    <button class="btn btn-default" ng-click="$ctrl.add()">Add Feature</button>
+    <spec-feature ng-repeat="feature in $ctrl.features">
+    </spec-feature>
+</section>

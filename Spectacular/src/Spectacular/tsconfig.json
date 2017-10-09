@@ -1,0 +1,10 @@
+﻿{
+  "compilerOptions": {
+    "target": "es6",
+    "noImplicitAny": true
+  },
+  "compileOnSave": true,
+  "types": [
+    "angular"
+  ]
+}
